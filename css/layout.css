@@ -1,0 +1,53 @@
+
+/*  // SETTING UP BOX POSITIONING FOR MOBILE VIEW */
+div .container .box-width240{
+  border: 5px solid red;
+  float: left; 
+  width: 50%;
+}
+
+.container a {
+  border: 1px solid green;
+  float: left;
+  width: 50;
+}
+
+.container2 a {
+  border: 1px solid green;
+  float: left;
+  width: 50;
+}
+
+.box-width240 a #e #f {
+  border: 1px solid blue;
+  box-sizing: border-box;
+  float: left;
+  width: 50;
+} 
+
+.box-width380 a {
+  border: 5px solid pink;
+  box-sizing: border-box;
+  float: left;
+  width: 50;
+}
+
+Centered text
+.centered {
+  position: relative;
+}
+
+p {
+  position: absolute;
+  left: 240px;
+  text-align: center;
+  z-index: 1;
+} 
+
+img {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+

@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+	margin: 0;
+	line-height: 0;
+    width:480px;
+    margin:auto;
+}
+
+.float>* {
+    float:left;
+}
+
+.a, .b, .c, .d, .i {
+    width:100%;
+    flex:1 1 80px;
+}
+
+.e, .f, .g, .h {
+    margin: 0;
+    border: 0;
+    width:50%;
+    /* display:inline-block; */
+    flex:1 1 80px;
+}
+
+
+
+.a {
+    background-color:lightseagreen;
+    height:75px;
+}
+
+.b {
+    background-color: slateblue;
+    height: 150px;
+}
+
+.c {
+    background-color: sandybrown;
+    height: 125px;
+}
+
+.d {
+    background-color: pink;
+    height: 125px;
+}
+
+.e {
+    background-color: lightcoral;
+    height: 250px;
+    /* float:left; */
+}
+
+.f {
+    background-color: lightgoldenrodyellow;
+    height: 250px;
+    /* float:right; */
+}
+
+.g {
+    background-color: lightslategray;
+    height: 250px;
+    /* float:left; */
+}
+
+.h {
+    background-color: lightsalmon;
+    height: 250px;
+    /* float:right; */
+}
+
+.i {
+    background-color: lightskyblue;
+    height: 80px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 960px) {
+    body {width:960px;}
+    .float {float:left;}
+    .b {float:left;width:200px; height:600px}
+    .c, .d { width:380px; height:200px;float:right}
+    .e, .f, .g, .h {width:188px; height:250px;display:inline-block;}
+    .i {height:150px;}
+}

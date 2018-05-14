@@ -1,0 +1,38 @@
+/* section.group-of-4 {
+  position: relative;
+  text-align: center;
+  color: red;
+} */
+
+div.top-2 img{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+
+}
+div.bottom-2 img{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* div.top-2 p {
+  position: absolute;
+  top: 1em;
+  left: 0;
+}
+
+div.bottom-2 p {
+  position: absolute;
+  top: 1em;
+  left: 0;
+} */
+
+/* .top-2 {
+  
+} */
+
+@media only screen and (min-width: 786px) {
+
+}

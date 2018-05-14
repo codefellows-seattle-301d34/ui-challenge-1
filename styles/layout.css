@@ -21,11 +21,6 @@ div.bottom-2 img{
 
 }
 
-.group-of-4 {
-  /* width: 480px; */
-
-}
-
 @media only screen and (min-width: 768px) {
 #mobile, .mobile {
   display: none;

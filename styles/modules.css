@@ -3,3 +3,13 @@ img {
   margin: 0px;
   padding: 0px;
 }
+
+header p {
+  position: absolute;
+  top: 1%; left: 2%; 
+}
+
+nav p {
+  position: absolute;
+  top: 11%; left: 2%; 
+}

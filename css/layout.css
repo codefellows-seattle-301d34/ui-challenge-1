@@ -1,5 +1,5 @@
 
-
+/*  // SETTING UP BOX POSITIONING FOR MOBILE VIEW */
 div .container .box-width240{
   border: 5px solid red;
   float: left; 
@@ -7,18 +7,18 @@ div .container .box-width240{
 }
 
 .container a {
-  border: 5px solid green;
+  border: 1px solid green;
   float: left;
   width: 50;
 }
 
 .container2 a {
-  border: 5px solid green;
+  border: 1px solid green;
   float: left;
   width: 50;
 }
 
-.box-width240 a {
+.box-width240 a #e #f {
   border: 1px solid blue;
   box-sizing: border-box;
   float: left;
@@ -31,14 +31,23 @@ div .container .box-width240{
   float: left;
   width: 50;
 }
-/* 
-div background-image: url|none|initial|inherit; */
 
-/* Centered text */
+Centered text
 .centered {
+  position: relative;
+}
+
+p {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 240px;
+  text-align: center;
+  z-index: 1;
 } 
+
+img {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
 

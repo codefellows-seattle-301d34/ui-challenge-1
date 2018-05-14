@@ -3,6 +3,12 @@
   font-size: 12px;
 }
 
+@media screen and (max-width: 960px) {
+  .desktop .hidden {
+    display: none;
+  }
+}
+
 body {
   margin: 0px;
   padding: 0px;

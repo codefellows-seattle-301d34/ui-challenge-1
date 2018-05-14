@@ -1,0 +1,11 @@
+@media only screen and (min-width: 960px) {
+  body {width:960px;}
+  .float {float:left;}
+  .b {float:left}
+  .b {width:200px}
+  .b {height:600px}
+  .c { width:380px; height:200px;float:left}
+  .d { width:380px; height:200px;float:right}
+  .e, .f, .g, .h {width:188px; height:250px;display:inline-block;}
+  .i {height:150px;}
+} 

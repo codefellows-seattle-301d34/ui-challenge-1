@@ -1,0 +1,66 @@
+.float>* {
+  float:left;
+}
+
+.a, .b, .c, .d, .i {
+  width:100%;
+  flex:1 1 80px;
+}
+
+.e, .f, .g, .h {
+  margin: 0;
+  border: 0;
+  width:50%;
+  /* display:inline-block; */
+  flex:1 1 80px;
+}
+
+
+.a {
+  background-color:rgb(253, 131, 131);
+  height:75px;
+}
+
+.b {
+  background-color: rgb(67, 131, 83);
+  height: 150px;
+}
+
+.c {
+  background-color: rgb(90, 81, 74);
+  height: 125px;
+}
+
+.d {
+  background-color: rgb(168, 167, 168);
+  height: 125px;
+}
+
+.e {
+  background-color: rgb(192, 191, 191);
+  height: 250px;
+  /* float:left; */
+}
+
+.f {
+  background-color: rgb(212, 212, 212);
+  height: 250px;
+  /* float:right; */
+}
+
+.g {
+  background-color: rgb(25, 57, 90);
+  height: 250px;
+  /* float:left; */
+}
+
+.h {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  /* float:right; */
+}
+
+.i {
+  background-color: rgb(151, 151, 151);
+  height: 80px;
+}

@@ -4,12 +4,56 @@ img {
   padding: 0px;
 }
 
+/* a */
 header p {
   position: absolute;
   top: 1%; left: 2%; 
 }
 
+/* b */
 nav p {
   position: absolute;
   top: 11%; left: 2%; 
 }
+
+/* c */
+.top-group-2 p {
+  position: absolute;
+  top: 33%; left: 2%; 
+}
+
+/* d */
+.bottom-group-2 p {
+  position: absolute;
+  top: 51%; left: 2%; 
+}
+
+  /* }e */
+.group-4-left {
+  position: absolute;
+  top: 71%; left: 2%; 
+}
+
+/* f */
+.group-4-right {
+  position: absolute;
+  top: 71%; left: 38%; 
+}
+
+  /* }g */
+  .group-4-bottomleft {
+    position: absolute;
+    top: 108%; left: 2%; 
+  }
+  
+  /* h */
+  .group-4-bottomright {
+    position: absolute;
+    top: 108%; left: 38%; 
+  }
+
+  /* i */
+  footer p.mobile {
+    position: absolute;
+    top: 145%; left: 2%; 
+  }

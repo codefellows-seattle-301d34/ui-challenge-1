@@ -1,0 +1,44 @@
+
+
+div .container .box-width240{
+  border: 5px solid red;
+  float: left; 
+  width: 50%;
+}
+
+.container a {
+  border: 5px solid green;
+  float: left;
+  width: 50;
+}
+
+.container2 a {
+  border: 5px solid green;
+  float: left;
+  width: 50;
+}
+
+.box-width240 a {
+  border: 1px solid blue;
+  box-sizing: border-box;
+  float: left;
+  width: 50;
+} 
+
+.box-width380 a {
+  border: 5px solid pink;
+  box-sizing: border-box;
+  float: left;
+  width: 50;
+}
+/* 
+div background-image: url|none|initial|inherit; */
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+

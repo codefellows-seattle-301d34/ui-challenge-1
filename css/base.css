@@ -3,8 +3,13 @@
   font-size: 12px;
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 #a {
   background-image: url("http://via.placeholder.com/480x75");
-}
+} 
 
 

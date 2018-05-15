@@ -1,6 +1,6 @@
 #entire-container {
   background-color: rgb(214, 210, 210);
-  border: .5px solid gray;
+  height: 700px;
   margin: auto;
   text-align: center;
   width: 480px;
@@ -63,7 +63,6 @@ div.footer {
     height: 600px;
     width: 200;
     line-height: 3500%;
-    overflow: hidden;
   }
 
   section.duo {
@@ -103,6 +102,4 @@ div.footer {
     line-height: 500%;
     width:760px;
   }
-
-
 }

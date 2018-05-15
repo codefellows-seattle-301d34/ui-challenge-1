@@ -1,70 +1,108 @@
-#desktop, .desktop {
-  display: none;
+#entire-container {
+  background-color: rgb(214, 210, 210);
+  border: .5px solid gray;
+  margin: auto;
+  text-align: center;
+  width: 480px;
 }
 
-.group-of-2 img{
-  display: block;
-  margin: 0px;
-  padding: 0px;
+div.header {
+  border: .5px solid gray;
+  height: 75px;
+  line-height: 500%;
 }
 
-div.top-2 img{
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
+div.nav {
+  border: .5px solid gray;
+  height: 150px;
+  line-height: 1000%;
+}
+
+div.c, div.d{
+  border: .5px solid gray;
+  height: 125px;
+  line-height: 900%;
+}
+
+section.quad {
+  height: 500px;
+  display: flex;   
+}
+
+div.e, div.f, div.g, div.h {
+  border: .5px solid gray;
+  height: 250px;
+  width: 240px;
+  line-height: 1500%;
+  flex-wrap: wrap;
 
 }
-div.bottom-2 img{
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
 
+div.footer {
+  border: .5px solid gray;
+  height: 80px;
+  line-height: 500%;
+  width:480px;
 }
 
 @media only screen and (min-width: 768px) {
-#mobile, .mobile {
-  display: none;
-}
 
-#desktop, .desktop {
-  display: block;
-}
+  #entire-container {
+    width: 960px;
+  }
 
-body {
-  width: 980px;
-}
+  div.header {
+    border: .5px solid gray;
+    height: 100px;
+    line-height: 500%;
+  }
+  
+  div.nav {
+    border: .5px solid gray;
+    float: left;
+    height: 600px;
+    width: 200;
+    line-height: 3500%;
+    overflow: hidden;
+  }
 
-nav {
-  float: left;
-}
+  section.duo {
+    display:flex;
+    height: 200px;
+  }
+  
+  div.c, div.d{
+    border: .5px solid gray;
+    height: 200px;
+    flex-wrap:wrap;
+    line-height: 1200%;
+    width: 380px;
+  }
 
-.group-of-2 {
-  float: right;
-  margin: 0px;
-  padding: 0px;
-}
+  section.quad {
+    height: 250px;
+  }
+    
+  div.quad-top, div.quad-bottom {
+    border: .5px solid gray;
+    display:flex;
+    height: 250px;
+    width: 380px;
+    line-height: 1500%;
+  }
+  div.e, div.f, div.g, div.h {
+    height: 250px;
+    width: 190px;
+    flex-wrap: wrap;
+  }
+  
+  div.footer {
+    border: .5px solid gray;
+    height: 150px;
+    float: right;
+    line-height: 500%;
+    width:760px;
+  }
 
-.group-of-2 img {
-  display: inline-block;
-  margin: 0px;
-}
-
-.group-of-4 div.top-2 {
-  float: right;
-}
-
-.group-of-4 div.bottom-of-top img {
-  float:right;
-}
-
-div.column-4 img{
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
-}
-
-footer {
-  float: right;
-}
 
 }

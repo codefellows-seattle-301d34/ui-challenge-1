@@ -26,7 +26,16 @@ div.c, div.d{
 
 section.quad {
   height: 500px;
-  display: flex;   
+}
+
+div.quad-top {
+  display:flex;
+  height: 250px;
+}
+
+div.quad-bottom {
+  display:flex;
+  height: 250px;
 }
 
 div.e, div.f, div.g, div.h {
@@ -80,6 +89,7 @@ div.footer {
   }
 
   section.quad {
+    display: flex;   
     height: 250px;
   }
     
